@@ -17,7 +17,7 @@ body {
     font-family: cursive;
     color: magenta;
 }
-/* any h1 inside of the product-overview id will have this styling applied to it*/
+/* any h1 INSIDE of the product-overview id will have this styling applied to it*/
 
 h1 {
     color: cadetblue;
