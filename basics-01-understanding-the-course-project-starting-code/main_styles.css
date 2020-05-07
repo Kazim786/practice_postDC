@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif'
 }
 
 #product-overview {
@@ -11,9 +11,13 @@ body {
 .section-title{
     font-weight: 300;
     color: chartreuse;
-    font-family: oblique;
+    font-family: inherit;
 }
-
+#product-overview h1 {
+    font-family: cursive;
+    color: magenta;
+}
+/* any h1 inside of the product-overview id will have this styling applied to it*/
 
 h1 {
     color: cadetblue;
