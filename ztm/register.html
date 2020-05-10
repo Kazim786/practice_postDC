@@ -7,19 +7,26 @@
     <title>register</title>
 </head>
 <body>
-    <form>
-        First Name: <input type="text"> <br/>
-        Last Name: <input type="text"> <br />
+    <form >
+        First Name: <input type="text" name="firstname"> <br/>
+        Last Name: <input type="text" name="lastname"> <br />
         Email: <input type="email" required> <br/>
-        Birthday: <input type="date"> <br/>
+        Password: <input type="password" min="6" name="password"> <br>
+        Birthday: <input type="date" name="birthday"> <br/>
         Gender: <br/> <input type="radio" name="gender">Male <br/>
         <input type="radio" name="gender">Female <br/> 
         <!--putting name="gender" tells the code that male and female belong to the same family.
             it tells them of each others existence. 
             And makes it so you can only select one at a time-->
         Pets: <br>
-        <input type="checkbox"> Cats <br>
-        <input type="checkbox"> Dogs <br>
+        <input type="checkbox" name="cat"> Cats <br>
+        <input type="checkbox" name="dog"> Dogs <br>
+        Cars: <br>
+        <select>
+            <option value="volvo" name= "volvo">Volvo</option>
+            <option value="Audi" name= "audi">Audi</option>
+            <!--Putting name attribute where there is user info-->
+        </select> <br>
         <input type="submit" value="Register">
         <input type="reset">
 
@@ -28,3 +35,15 @@
     
 </body>
 </html>
+
+<!--This is a query string which you will find in the url
+It is put into the Url after you hit submit for a form. The form has
+a method called GET which is set by default and due to which this info
+is shown onto the URL. If you change the method to POST it will hide the info-->
+?
+firstname=fake
++&lastname=man
+&password=123456
+&birthday=2020-05-03
+&gender=on
+&cat=on
