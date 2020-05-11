@@ -21,12 +21,12 @@ p{
 
 }
 
-h2 + p:hover{
+h2 + p:hover{ /* when you hover over any p tags that are right after the h2 the text-align will become centered and the color will become blue*/
     color: blue;
     text-align: center;
 }
 
-h2 p:hover{
+h2 p:hover{ /*any p tag that is a descendant of the h2*/
     color: darkgoldenrod;
     text-align: left;
 }
