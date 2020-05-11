@@ -1,6 +1,5 @@
 body{
-    background-image: url(https://image.shutterstock.com/image-photo/imam-ali-shrine-clock-gate-260nw-1487993213.jpg);
-    background-size: cover;
+   text-align: right;
 }
 
 h2 {
@@ -11,12 +10,25 @@ h2 {
     
 }
 
-p{
-    color: green;
+.random{
+    border-style: groove;
+    color: white;
+    
 }
 
 p{
+    color: green;
+
+}
+
+h2 + p:hover{
     color: blue;
+    text-align: center;
+}
+
+h2 p:hover{
+    color: darkgoldenrod;
+    text-align: left;
 }
 
 li{
@@ -24,3 +36,12 @@ li{
     display: inline-block;
 }
 
+#div1{
+    color: rgba(10, 190, 72, .3);
+    font-family: cursive;
+}
+
+#div2{
+    color: black;
+    font-family: fantasy;
+}
