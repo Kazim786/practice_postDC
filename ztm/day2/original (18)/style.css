@@ -1,5 +1,14 @@
+body{
+    background-image: url(https://image.shutterstock.com/image-photo/imam-ali-shrine-clock-gate-260nw-1487993213.jpg);
+    background-size: cover;
+}
+
 h2 {
     color: red;
+    text-align: center;
+    border: 5px solid red;
+    cursor: progress;
+    
 }
 
 p{
@@ -9,3 +18,9 @@ p{
 p{
     color: blue;
 }
+
+li{
+    list-style: none; /*removes the dots in front of the list*/
+    display: inline-block;
+}
+
