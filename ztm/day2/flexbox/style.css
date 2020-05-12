@@ -3,6 +3,8 @@ h1{
     font-size: 3em;
     /* background-color: rgba(29, 203, 29, 0.3); */
     border-bottom: solid;
+    border-right: solid;
+    text-align: center;
     width: 400px;
 }
 
@@ -16,11 +18,17 @@ h1:hover{
     /* By default, flex items will all try to fit onto one line. You can change that 
     and allow the items to wrap as needed with this property. */
     justify-content: center;
+
+    /*use height property if you wanna use align-items or align-content*/
+    /* height: 100vh; */
+    /* align-items: center; */
+    
 }
 
 img{
     width: 250px;
     height: 200px;
+    
 }
 div img:hover{
     transform: scale(1.5);
