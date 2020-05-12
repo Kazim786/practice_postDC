@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    background-color: rgba(29, 203, 29, 0.3);
+}
+
+h1:hover{
+    color: green;
+    text-align: center;
+
+
+}
+
