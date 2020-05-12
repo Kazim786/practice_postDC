@@ -14,14 +14,18 @@ h1:hover{
 
 .container{
     display: flex;
+    flex-direction: row; /*this is by default row*/
     flex-wrap: wrap;
     /* By default, flex items will all try to fit onto one line. You can change that 
     and allow the items to wrap as needed with this property. */
     justify-content: center;
 
-    /*use height property if you wanna use align-items or align-content*/
-    /* height: 100vh; */
-    /* align-items: center; */
+    /*use flex-direction if you wanna include align-items or align-content*/
+    height: auto;
+    align-items: center;
+    
+    
+    
     
 }
 
